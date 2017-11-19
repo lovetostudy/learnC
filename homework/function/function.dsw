@@ -51,6 +51,54 @@ Package=<4>
 
 ###############################################################################
 
+Project: "project_06"=.\project_06\project_06.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "project_07"=.\project_07\project_07.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "project_08"=.\project_08\project_08.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "project_09"=.\project_09\project_09.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
 Project: "project_1"=.\project_1\project_1.dsp - Package Owner=<4>
 
 Package=<5>
