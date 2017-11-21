@@ -14,42 +14,29 @@ int fibonacci(int n)
 int main()
 {
 
-	int number;
+	double number;
 	int fib;
 	double fib1;
-	int i;
+	int i = 0;
 	double total = 0;
 
 	printf("Enter number: ");
-	scanf("%d", &number);
+	scanf("%lf", &number);	// 获取输入
 
-	for(i = 1; i < 20; i++)
-	{
-		fib = fibonacci(i);
-		fib1 = 1 / (double)fib;	
-		printf("%lf\n", fib1);
-		total += fib1;
-
-		if(fib1 < number)
-			break;
-	
-		
-	}
-/*
 	while(1)
 	{
 		fib = fibonacci(i);	  // 求第i个fibonacci数
-		printf("%d\n", fib);
 		fib1 = 1 / (double)fib;		  // 求其倒数
-		if(fib < number)	  // 结束标志
+
+		if(fib1 < number)	  // 结束标志
 			break;
-		total += fib;
+
+		total += fib1;		// 将倒数相加
 		i++;
-		printf("%5d", fib);
 	}
 
-*/	
 	
+	printf("%.4lf\n", total);
 
 	return 0;
 }
