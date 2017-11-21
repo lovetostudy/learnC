@@ -1,5 +1,5 @@
 Microsoft Developer Studio Workspace File, Format Version 6.00
-# 警告: 不能编辑或删除该工作区文件！
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
 
 ###############################################################################
 
@@ -148,6 +148,18 @@ Package=<4>
 ###############################################################################
 
 Project: "project_13"=.\project_13\project_13.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "project_14"=.\project_14\project_14.dsp - Package Owner=<4>
 
 Package=<5>
 {{{
