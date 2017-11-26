@@ -27,7 +27,9 @@ int sort(int *p1, int count)
 	{
 		if(*(p1+i) % 2 != 0)
 		{
+			t = *(p1+point);
 			*(p1+point) = *(p1+i);
+			*(p1+i) = t;
 			point++;
 		}
 	}
@@ -35,7 +37,7 @@ int sort(int *p1, int count)
 	// ÅÅÅ¼Êı
 	for(i = point; i < count; i++)
 	{
-		for(j = point; j < count - point - 1; j++)
+		for(j = i; j < count - 1; j++)
 		{
 			if(*(p1+j) > *(p1+j+1))
 			{
