@@ -27,7 +27,7 @@ int main()
 	// 冒泡排序
 	for(i = 0; i < counter; i++)
 	{
-		for(j = i; j < counter - 1; j++)
+		for(j = 0; j < counter - i - 1; j++)
 		{
 			int t;
 			if(*(p+j) > *(p+j+1))
@@ -39,15 +39,15 @@ int main()
 		}
 	}
 
-	// 获取中位数
+	// 求中位数
 	if(counter % 2 == 0)	// 若为偶数个数
 	{
-		total = *(p + counter / 2) + *(p + counter - 1);
+		total = *(p + counter / 2) + *(p + counter / 2 -1);
 		mid = total / 2;
 	}else					// 若为奇数个数
-		mid = (double)*(p + counter / 2) / 2;
+		mid = *(p + counter / 2);
 
-	printf("%d\n", mid);
+	printf("%.1lf\n", mid);
 
 	return 0;
 }

@@ -25,7 +25,7 @@ int main()
 	// ц╟ещеепР
 	for(i = 0; i < counter; i++)
 	{
-		for(j = i; j < counter - 1; j++)
+		for(j = 0; j < counter - i - 1; j++)
 		{
 			int t;
 			if(*(p+j) > *(p+j+1))
