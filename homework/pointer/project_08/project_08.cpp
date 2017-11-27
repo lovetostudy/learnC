@@ -39,10 +39,10 @@ int sort(int *p1, int count)
 	{
 		for(j = i; j < count - 1; j++)
 		{
-			if(*(p1+j) > *(p1+j+1))
+			if(*(p1+i) > *(p1+j+1))
 			{
-				t = *(p1+j);
-				*(p1+j) = *(p1+j+1);
+				t = *(p1+i);
+				*(p1+i) = *(p1+j+1);
 				*(p1+j+1) = t;
 			}
 		}
