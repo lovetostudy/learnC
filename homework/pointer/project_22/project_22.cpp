@@ -25,7 +25,7 @@ int mystrcmp(char *p1)
 	{
 		if(*(p2+i) == *(p1+k+i)) // 判断是否相等
 			continue;
-		flag = *(p2+i) - *(p2+k+i); // 如果不相等就获取差值
+		flag = *(p2+i) - *(p1+k+i); // 如果不相等就获取差值
 		break;
 	}
 
